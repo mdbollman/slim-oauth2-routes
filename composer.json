@@ -17,7 +17,7 @@
       ],
     "license": "MIT",
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.3 || ^8.0",
         "bshaffer/oauth2-server-php": "^1.9",
         "chadicus/slim-oauth2-http": "dev-next"
     },
@@ -33,7 +33,7 @@
         "php-coveralls/php-coveralls": "^2.5",
         "phpunit/phpunit": "^8.5",
         "slim/php-view": "^2.0.5",
-        "laminas/laminas-diactoros": "^2.8"
+        "laminas/laminas-diactoros": "^2.14.0"
     },
     "autoload": {
         "psr-4": {"Chadicus\\Slim\\OAuth2\\Routes\\" : "src"}
